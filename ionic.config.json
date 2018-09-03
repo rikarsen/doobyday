@@ -1,0 +1,8 @@
+{
+  "name": "doobyday",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "ae06deb9"
+}

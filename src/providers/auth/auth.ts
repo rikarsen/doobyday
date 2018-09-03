@@ -39,7 +39,7 @@ export class AuthenticationProvider {
     return this.afAuth.auth.signInWithEmailAndPassword(credentials.email, credentials.password);
   }
 
-  public signInWithGoogle (): Promise<firebase.auth.UserCredential> | Promise<void> {
+  public signInWithGoogle (): Promise<any> {
     return this.oauthSignIn(new firebase.auth.GoogleAuthProvider());
   }
 
